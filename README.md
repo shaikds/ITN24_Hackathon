@@ -18,7 +18,7 @@ This Python-based client-server application performs network speed tests, compar
 1. **Clone the Repository**
    Clone the project to your local machine:
    ```bash
-   git clone https://github.com/yourusername/network-speed-test.git
+   git clone https://github.com/shaikds/network-speed-test.git
 ### Install Dependencies
 Install the required Python packages:
 
