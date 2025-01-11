@@ -19,30 +19,29 @@ This Python-based client-server application performs network speed tests, compar
    Clone the project to your local machine:
    ```bash
    git clone https://github.com/yourusername/network-speed-test.git
-Install Dependencies Install the required Python packages:
-bash
-Copy code
+### Install Dependencies
+Install the required Python packages:
+
 pip install scapy
-Running the Application
+
+### Running the Application
 Server
 To start the server, execute the following command from the root directory of the project:
 
-bash
-Copy code
 python server.py
+
 The server will print its IP address and start sending UDP offers.
 
-Client
+### Client
 To run the client, execute:
 
-bash
-Copy code
 python client.py
+
 Follow the on-screen instructions to set download parameters.
 
-Usage Example
-Start the Server:
+## Usage Example
+### Start the Server:
 It will display its IP address and begin broadcasting UDP offers.
-Start the Client:
+### Start the Client:
 Enter the requested file size and the number of TCP and UDP connections.
 Once an offer is received, the client connects to the server to start the speed tests.
